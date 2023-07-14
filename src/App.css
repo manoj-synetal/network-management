@@ -1,0 +1,39 @@
+/* ---------- Text Classes ---------- */
+.text-primary {
+  color: rgba(2, 160, 252, 1);
+}
+.text-secondary {
+  color: rgba(153, 153, 153, 1);
+}
+.text-dark {
+  color: rgba(0, 0, 0, 1);
+}
+
+/* ---------- Background Classes ----------- */
+.bg-primary {
+  background-color: rgba(2, 160, 252, 1) !important;
+}
+.bg-primary-light {
+  background-color: rgba(2, 160, 252, 0.1);
+}
+.bg-secondary {
+  background-color: rgba(243, 245, 246, 1);
+}
+
+/* ---------- Border Classes ----------- */
+.border-color {
+  border-color: rgba(2, 160, 252, 1) !important;
+}
+
+/* -------------- ScrollBar ---------------- */
+#subItem::-webkit-scrollbar,
+#navLinks::-webkit-scrollbar,
+#wcomponent::-webkit-scrollbar {
+  width: 5px;
+}
+#subItem::-webkit-scrollbar-thumb,
+#navLinks::-webkit-scrollbar-thumb,
+#wcomponent::-webkit-scrollbar-thumb {
+  background: rgba(153, 153, 153, 1);
+  border-radius: 100px;
+}
